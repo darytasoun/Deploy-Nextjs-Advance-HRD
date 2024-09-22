@@ -3,7 +3,7 @@ kind: PersistentVolumeClaim
 metadata:
   name: nextjs-pvc
 spec:
-  storageClassName: standard
+  storageClassName: manual
   accessModes:
     - ReadWriteOnce
   resources:
